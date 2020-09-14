@@ -1,0 +1,7 @@
+name: SkyBlock
+author: Ragnok123
+main: net.novaplay.skyblock.Main
+version: "1.0"
+api: ["1.0.0"]
+depend: ["NovaCore", "GTTrade"]
+load: POSTWORLD
