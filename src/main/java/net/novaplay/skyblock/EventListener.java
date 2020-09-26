@@ -24,7 +24,7 @@ import cn.nukkit.potion.Effect;
 import cn.nukkit.utils.TextFormat;
 import net.novaplay.core.Lang;
 import net.novaplay.core.NovaCore;
-import net.novaplay.core.entity.LobbyNPC;
+import net.novaplay.core.entity.BasicNPC;
 import net.novaplay.core.player.DisplayName;
 import net.novaplay.core.player.NPlayer;
 import net.novaplay.core.utils.ChanceAPI;
@@ -346,11 +346,11 @@ public class EventListener implements Listener {
                 if (this.plugin.getIslandManager().isOnlineIsland(entity.getLevel().getName())) {
                     event.setCancelled();
                 }
-            } else if(entity instanceof LobbyNPC && ((EntityDamageByEntityEvent) event).getDamager() instanceof Player) {
+            } else if(entity instanceof BasicNPC && ((EntityDamageByEntityEvent) event).getDamager() instanceof Player) {
             	event.setCancelled();
             	Player p = (Player) ((EntityDamageByEntityEvent) event).getDamager();
             	PlayerData data = this.plugin.getSkyBlockManager().getPlayerIsland(p);
-            	LobbyNPC vlg = (LobbyNPC)entity;
+            	BasicNPC vlg = (BasicNPC)entity;
             	if(vlg.getNpcId().equals("sb_create")) {
             		FormSender.openCreateIslandForm(p);
             	} else if(vlg.getNpcId().equals("sb_tp")) {
