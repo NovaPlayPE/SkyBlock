@@ -24,6 +24,7 @@ import cn.nukkit.potion.Effect;
 import cn.nukkit.utils.TextFormat;
 import net.novaplay.core.Lang;
 import net.novaplay.core.NovaCore;
+import net.novaplay.core.Settings;
 import net.novaplay.core.entity.BasicNPC;
 import net.novaplay.core.player.DisplayName;
 import net.novaplay.core.player.NPlayer;
@@ -67,10 +68,15 @@ public class EventListener implements Listener {
         this.plugin.getSkyBlockManager().tryRegisterUser(event.getPlayer());
     	Player p = event.getPlayer();
     	AddonData addon = new AddonData(p);
-    	Main.addPlayer(p.getName(), addon);
-    	if(!addon.isRegistered()) {
-    		addon.createData();
-    	}
+    	plugin.getServer().getScheduler().scheduleDelayedTask(new Runnable() {
+    		public void run() {
+    			Main.addPlayer(p.getName(), addon);
+    	    	if(!addon.isRegistered()) {
+    	    		addon.createData();
+    	    	}
+    		}
+    	}, 10);
+    	
     }
     
     @EventHandler
@@ -119,7 +125,7 @@ public class EventListener implements Listener {
         		o.setDisplayName("§l§6> §eSkyBlock §6<");
         		o.registerScore("scoreboard_empty_1", " ",5);
         		o.registerScore("scoreboard_server", Lang.send(player, new String[] {"&7>> Server: &f", "&7>> Сервер: &f"}) + 
-        				NovaCore.getInstance().getNserver().getId()
+        				Settings.SERVER_ID
         				,5);
         		o.registerScore("scoreboard_empty_2", "  ",4);
         		o.registerScore("scoreboard_rank", Lang.send(player, new String[] {
