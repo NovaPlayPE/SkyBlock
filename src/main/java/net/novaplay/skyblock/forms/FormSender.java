@@ -1,7 +1,7 @@
 package net.novaplay.skyblock.forms;
 
 import cn.nukkit.Player;
-import net.novaplay.core.Lang;
+import net.novaplay.core.lang.Lang;
 import net.novaplay.core.player.NPlayer;
 
 import net.novaplay.skyblock.Main;

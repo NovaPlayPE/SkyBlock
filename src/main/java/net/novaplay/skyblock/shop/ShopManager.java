@@ -1,6 +1,6 @@
 package net.novaplay.skyblock.shop;
 
-import net.novaplay.core.Lang;
+import net.novaplay.core.lang.Lang;
 import net.novaplay.skyblock.Main;
 import net.novaplay.skyblock.addons.AddonData;
 import ru.ragnok123.menuAPI.inventory.InventoryCategory;

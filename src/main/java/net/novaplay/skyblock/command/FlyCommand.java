@@ -3,7 +3,7 @@ package net.novaplay.skyblock.command;
 import cn.nukkit.Player;
 import cn.nukkit.command.Command;
 import cn.nukkit.command.CommandSender;
-import net.novaplay.core.Lang;
+import net.novaplay.core.lang.Lang;
 import net.novaplay.skyblock.Main;
 import net.novaplay.skyblock.addons.AddonData;
 
