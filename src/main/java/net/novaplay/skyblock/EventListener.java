@@ -26,8 +26,8 @@ import net.novaplay.core.NovaCore;
 import net.novaplay.core.Settings;
 import net.novaplay.core.entity.BasicNPC;
 import net.novaplay.core.lang.Lang;
-import net.novaplay.core.player.DisplayName;
 import net.novaplay.core.player.NPlayer;
+import net.novaplay.core.player.name.DisplayName;
 import net.novaplay.core.utils.ChanceAPI;
 import net.novaplay.core.utils.Chance;
 
@@ -117,7 +117,7 @@ public class EventListener implements Listener {
         	public void run() {
         		player.setGamemode(0);
         		data.setLobby(true);
-        		data.setupDisplayName();
+        		data.getNickManager().setupLobbyDisplayName();
         		addon.setupDisplayName();
         		Scoreboard board = new Scoreboard();
         		ScoreboardObjective o = board.registerNewObjective("skyblock",Criteria.DUMMY);

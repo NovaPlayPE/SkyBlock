@@ -80,6 +80,12 @@
         </dependency>
         <dependency>
     		<groupId>ru.ragnok123</groupId>
+    		<artifactId>sqlNukkitLib</artifactId>
+    		<version>1.0</version>
+    		<scope>provided</scope>
+    	</dependency>
+        <dependency>
+    		<groupId>ru.ragnok123</groupId>
     		<artifactId>gtscoreboard</artifactId>
     		<version>1.0</version>
     		<scope>provided</scope>
@@ -94,12 +100,6 @@
     		<groupId>ru.ragnok123</groupId>
     		<artifactId>gttrade</artifactId>
     		<version>1.0</version>
-    		<scope>provided</scope>
-    	</dependency>
-    	<dependency>
-    		<groupId>ua.leonidius</groupId>
-    		<artifactId>trdinterface</artifactId>
-    		<version>1.0.2</version>
     		<scope>provided</scope>
     	</dependency>
     </dependencies>

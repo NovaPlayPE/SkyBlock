@@ -5,10 +5,11 @@ import java.util.HashMap;
 import cn.nukkit.Player;
 import net.novaplay.callback.MySQLCallback;
 import net.novaplay.core.NovaCore;
-import net.novaplay.core.player.DisplayName;
 import net.novaplay.core.player.NPlayer;
+import net.novaplay.core.player.name.DisplayName;
 import net.novaplay.skyblock.addons.quest.Quest;
 import net.novaplay.skyblock.addons.quest.QuestRegistry;
+import ru.ragnok123.sqlNukkitLib.utils.Pair;
 
 public class AddonData {
 	
@@ -33,28 +34,28 @@ public class AddonData {
 	
 	public AddonData(Player p) {
 		this.player = p;
-		NovaCore.getInstance().mysql.fetchData(new MySQLCallback<HashMap<String,Object>>(){
-			public void accept(HashMap<String,Object> map) {
-				if(!map.isEmpty()) {
-					isRegistered = true;
-					emeralds = (int)map.get("emeralds");
-					count = (int)map.get("amount");
-					questIndex = (int)map.get("quest");
-					smallKeys = (int)map.get("small_keys");
-					bigKeys = (int)map.get("big_keys");
-					rank = (String)map.get("rank");
-				} else {
-					isRegistered = false;
-				}
+		
+		NovaCore.getDatabase().select("skyblock", "nickname", player.getName().toLowerCase(), map -> {
+			if(!map.isEmpty()) {
+				isRegistered = true;
+				emeralds = (int)map.get("emeralds");
+				count = (int)map.get("amount");
+				questIndex = (int)map.get("quest");
+				smallKeys = (int)map.get("small_keys");
+				bigKeys = (int)map.get("big_keys");
+				rank = (String)map.get("rank");
+			} else {
+				isRegistered = false;
 			}
-			public void fail(Throwable fail) {
-				
-			}
-		}, player.getName().toLowerCase(), "skyblock");
+		});
+		
 	}
 	
 	public void createData() {
-		NovaCore.getInstance().mysql.updateData("INSERT INTO `skyblock` (`nickname`,`emeralds`,`amount`,`quest`,`small_keys`,`big_keys`,`rank`) VALUES ('"+player.getName().toLowerCase()+"','0','0','0','0','0','basic')");
+		isRegistered = true;
+		NovaCore.getDatabase().insert("skyblock", new Pair[] {
+				new Pair("nickname", player.getName().toLowerCase())
+		});
 	}
 	
 	public int getEmeralds() {
@@ -87,10 +88,9 @@ public class AddonData {
 		name.setSuffix(getSuffix());
 		name.setColorVisible(false);
 		name.setLevelVisible(true);
-		name.setRankVisible(d.hasRankWhileFake());
-		name.setName(d.getPlayerName());
-		this.player.setNameTag(name.getFinalFormat());
-		this.player.setDisplayName(this.player.getNameTag());
+		name.setRankVisible(d.getFakeManager().checkRank());
+		name.setName(d.getName());
+		d.getNickManager().updateNametag();
 	}
 	
 	public String getRank() {
@@ -128,12 +128,14 @@ public class AddonData {
 	}
 	
 	public void save() {
-		NovaCore.getInstance().mysql.updateData("UPDATE `skyblock` SET `emeralds`='"+emeralds+"' WHERE `nickname`='"+getPlayer().getName().toLowerCase()+"'");
-		NovaCore.getInstance().mysql.updateData("UPDATE `skyblock` SET `amount` = '"+count+"' WHERE `nickname`='"+getPlayer().getName().toLowerCase()+"'");
-		NovaCore.getInstance().mysql.updateData("UPDATE `skyblock` SET `quest` ='"+questIndex+"' WHERE `nickname`='"+getPlayer().getName().toLowerCase()+"'");
-		NovaCore.getInstance().mysql.updateData("UPDATE `skyblock` SET `small_keys` ='"+smallKeys+"' WHERE `nickname`='"+getPlayer().getName().toLowerCase()+"'");
-		NovaCore.getInstance().mysql.updateData("UPDATE `skyblock` SET `big_keys` ='"+bigKeys+"' WHERE `nickname`='"+getPlayer().getName().toLowerCase()+"'");
-		NovaCore.getInstance().mysql.updateData("UPDATE `skyblock` SET `rank` ='"+rank+"' WHERE `nickname`='"+getPlayer().getName().toLowerCase()+"'");
+		NovaCore.getDatabase().update("skyblock", "nickname", getPlayer().getName().toLowerCase(), new Pair[] {
+				new Pair("emeralds", emeralds),
+				new Pair("amount", count),
+				new Pair("quest", questIndex),
+				new Pair("small_keys", smallKeys),
+				new Pair("big_keys", bigKeys),
+				new Pair("rank", rank)
+		});
 	}
 	
 	public enum Keys{
