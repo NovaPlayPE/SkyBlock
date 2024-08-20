@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 42
+    Goal: '349:0'
+    Type: fish
+    RequiredAmount: 80
+    Info:
+    - '&6Nachytej si,'
+    - '&680 rybicek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 42 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cpecene maso&e!'
+    Rewards:
+      Item1:
+        Id: 364
+        Data: 0
+        Amount: 15

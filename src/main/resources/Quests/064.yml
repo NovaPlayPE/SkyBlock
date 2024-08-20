@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 64
+    Goal: '17:2'
+    Type: destroy
+    RequiredAmount: 200
+    Info:
+    - '&6Natez 200,'
+    - '&6brez. dreva.'
+    FinishInfo:
+    - '&d------| &a&lUkol 64 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cpsi vino&e!'
+    Rewards:
+      Item1:
+        Id: 106
+        Data: 0
+        Amount: 20

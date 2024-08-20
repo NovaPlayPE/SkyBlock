@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 63
+    Goal: '154:0'
+    Type: craft
+    RequiredAmount: 5
+    Info:
+    - '&6Vyrob 5nasypek'
+    - '&6po 1-hoppery.'
+    FinishInfo:
+    - '&d------| &a&lUkol 63 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cohnivy prach&e!'
+    Rewards:
+      Item1:
+        Id: 377
+        Data: 0
+        Amount: 10

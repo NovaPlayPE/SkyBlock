@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 53
+    Goal: 'PIG'
+    Type: kill
+    RequiredAmount: 100
+    Info:
+    - '&6Zabi 100'
+    - '&6prasatek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 53 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &crud. lampa&e!'
+    Rewards:
+      Item1:
+        Id: 123
+        Data: 0
+        Amount: 5

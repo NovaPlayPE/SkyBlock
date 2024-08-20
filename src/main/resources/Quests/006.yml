@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 6
+    Goal: '17:2'
+    Type: destroy
+    RequiredAmount: 50
+    Info:
+    - '&6Natez 50'
+    - '&6brezov. dreva.'
+    FinishInfo:
+    - '&d------| &a&lUkol 6 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csazenice akacie&e!'
+    Rewards:
+      Item1:
+        Id: 6
+        Data: 4
+        Amount: 4

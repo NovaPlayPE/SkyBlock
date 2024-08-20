@@ -1,0 +1,22 @@
+Quests:
+  Paty:
+    Id: 5
+    Goal: '61:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Postav pec.'
+    - '&6Mnam pecinka.'
+    FinishInfo:
+    - '&d------| &a&lUkol 5 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cuhli + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 263
+        Data: 0
+        Amount: 10
+      Item2:
+        Id: 388
+        Data: 0
+        Amount: 10

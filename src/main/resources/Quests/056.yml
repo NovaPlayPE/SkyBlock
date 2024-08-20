@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 56
+    Goal: '276:0'
+    Type: enchant
+    RequiredAmount: 3
+    Info:
+    - '&6Enchantni 3'
+    - '&6dia mece.'
+    FinishInfo:
+    - '&d------| &a&lUkol 56 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &ctabulky skla&e!'
+    Rewards:
+      Item1:
+        Id: 160
+        Data: 3
+        Amount: 30

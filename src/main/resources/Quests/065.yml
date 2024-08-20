@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 65
+    Goal: 'SLIME'
+    Type: kill
+    RequiredAmount: 200
+    Info:
+    - '&6Zabi 200'
+    - '&6slizaku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 65 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cdia brneni + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 311
+        Data: 0
+        Amount: 1
+      Item2:
+        Id: 14
+        Data: 0
+        Amount: 10

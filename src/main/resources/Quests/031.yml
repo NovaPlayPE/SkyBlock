@@ -1,0 +1,19 @@
+Quests:
+  Sesty:
+    Id: 31
+    Goal: '5:3'
+    Type: place
+    RequiredAmount: 150
+    Info:
+    - '&6Postav pekny'
+    - '&6sekvojovy'
+    - '&6domecek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 31 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cprasatko&e!'
+    Rewards:
+      Item1:
+        Id: 383
+        Data: 90
+        Amount: 2

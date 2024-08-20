@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 23
+    Goal: '142:7'
+    Type: destroy
+    RequiredAmount: 100
+    Info:
+    - '&6Sklid 100,'
+    - '&6brambor.'
+    FinishInfo:
+    - '&d------| &a&lUkol 23 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &ckakaove boby&e!'
+    Rewards:
+      Item1:
+        Id: 351
+        Data: 3
+        Amount: 5

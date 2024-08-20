@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 28
+    Goal: '349:0'
+    Type: fish
+    RequiredAmount: 40
+    Info:
+    - '&6Nachytej 40,'
+    - '&6rybicek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 28 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &ckostky uhli&e!'
+    Rewards:
+      Item1:
+        Id: 16
+        Data: 0
+        Amount: 10

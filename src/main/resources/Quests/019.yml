@@ -1,0 +1,17 @@
+Quests:
+  Sesty:
+    Id: 19
+    Goal: '83:0'
+    Type: destroy
+    RequiredAmount: 15
+    Info:
+    - '&6Vypestuj 15,'
+    - '&6cukr. trtiny.'
+    FinishInfo:
+    - '&d------| &a&lUkol 19 splnen!&d |------'
+    - '&eDostavas jako odmenu &czel. motyku&e!'
+    Rewards:
+      Item1:
+        Id: 292
+        Data: 0
+        Amount: 1

@@ -1,0 +1,21 @@
+Quests:
+  Sesty:
+    Id: 76
+    Goal: 'COW'
+    Type: kill
+    RequiredAmount: 2000
+    Info:
+    - '&6Zabi 2000,'
+    - '&6kravicek.'
+    - '&6Potrebujeme'
+    - '&6kuzi na nove'
+    - '&6obleceni.'
+    FinishInfo:
+    - '&d------| &a&lUkol 76 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &cuhli&b!'
+    Rewards:
+      Item1:
+        Id: 263
+        Data: 0						
+        Amount: 200

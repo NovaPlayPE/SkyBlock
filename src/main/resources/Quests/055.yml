@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 55
+    Goal: '38:0'
+    Type: destroy
+    RequiredAmount: 200
+    Info:
+    - '&6Utrhni 200'
+    - '&6maku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 55 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cinkoust + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 351
+        Data: 0
+        Amount: 15
+      Item2:
+        Id: 351
+        Data: 6
+        Amount: 20

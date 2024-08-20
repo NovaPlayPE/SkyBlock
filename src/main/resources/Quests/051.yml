@@ -1,0 +1,19 @@
+Quests:
+  Sesty:
+    Id: 51
+    Goal: '35:13'
+    Type: craft
+    RequiredAmount: 50
+    Info:
+    - '&6Obarvi po 1,'
+    - '&6tmave zelenou'
+    - '&6vlnu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 51 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cbrneni na kone&e!'
+    Rewards:
+      Item1:
+        Id: 418
+        Data: 0
+        Amount: 1

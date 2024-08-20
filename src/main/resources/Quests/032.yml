@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 32
+    Goal: '4:0'
+    Type: destroy
+    RequiredAmount: 150
+    Info:
+    - '&6Natez 150,'
+    - '&6cobblu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 32 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cruze&e!'
+    Rewards:
+      Item1:
+        Id: 175
+        Data: 4
+        Amount: 20

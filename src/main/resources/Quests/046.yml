@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 46
+    Goal: '23:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Vyrob'
+    - '&6dispenser.'
+    FinishInfo:
+    - '&d------| &a&lUkol 46 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csliz&e!'
+    Rewards:
+      Item1:
+        Id: 341
+        Data: 0
+        Amount: 10

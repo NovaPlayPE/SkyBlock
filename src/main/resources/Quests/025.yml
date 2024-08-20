@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 25
+    Goal: '4:0'
+    Type: destroy
+    RequiredAmount: 200
+    Info:
+    - '&6Natez 200'
+    - '&6cobblestonu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 25 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &czel.pruty + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 265
+        Data: 0
+        Amount: 10
+      Item2:
+        Id: 20
+        Data: 0
+        Amount: 10

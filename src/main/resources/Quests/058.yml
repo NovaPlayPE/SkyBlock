@@ -1,0 +1,19 @@
+Quests:
+  Sesty:
+    Id: 58
+    Goal: '65:3'
+    Type: place
+    RequiredAmount: 20
+    Info:
+    - '&6Postav zebrik'
+    - '&6na severni'
+    - '&6stranu ostrova'
+    FinishInfo:
+    - '&d------| &a&lUkol 58 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cjilove kostky&e!'
+    Rewards:
+      Item1:
+        Id: 82
+        Data: 0
+        Amount: 15

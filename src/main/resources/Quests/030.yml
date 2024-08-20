@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 30
+    Goal: 'SHEEP'
+    Type: shear
+    RequiredAmount: 50
+    Info:
+    - '&6Ostrihej 50,'
+    - '&6ovecek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 30 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &czlato + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 266
+        Data: 0
+        Amount: 10
+      Item2:
+        Id: 264
+        Data: 0
+        Amount: 4

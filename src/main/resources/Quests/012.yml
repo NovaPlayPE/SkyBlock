@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 12
+    Goal: '44:0'
+    Type: place
+    RequiredAmount: 20
+    Info:
+    - '&6Stav chodnik,'
+    - '&620ston. slabu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 12 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csnehove kostky&e!'
+    Rewards:
+      Item1:
+        Id: 80
+        Data: 0
+        Amount: 4

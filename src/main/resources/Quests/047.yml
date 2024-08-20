@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 47
+    Goal: '400:0'
+    Type: craft
+    RequiredAmount: 10
+    Info:
+    - '&6Upec po 1,'
+    - '&610 dyn.kolacu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 47 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csmaragdova loziska&e!'
+    Rewards:
+      Item1:
+        Id: 129
+        Data: 0
+        Amount: 5

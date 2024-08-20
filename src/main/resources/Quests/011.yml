@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 11
+    Goal: '17:3'
+    Type: destroy
+    RequiredAmount: 50
+    Info:
+    - '&6Natez 50,'
+    - '&6sekv. dreva.'
+    FinishInfo:
+    - '&d------| &a&lUkol 11 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csazenicky tm. dubu&e!'
+    Rewards:
+      Item1:
+        Id: 6
+        Data: 5
+        Amount: 4

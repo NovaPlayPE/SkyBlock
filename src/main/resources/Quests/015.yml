@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 15
+    Goal: 'CHICKEN'
+    Type: kill
+    RequiredAmount: 10
+    Info:
+    - '&6Zabi 10 slipek'
+    - '&6bude pecinka.'
+    FinishInfo:
+    - '&d------| &a&lUkol 15 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &credstone + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 331
+        Data: 0
+        Amount: 12
+      Item2:
+        Id: 348
+        Data: 0
+        Amount: 12

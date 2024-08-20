@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 67
+    Goal: 'OCELOT'
+    Custom: '349:0'
+    Type: clickentity
+    RequiredAmount: 5
+    Info:
+    - '&6Ochoc si,'
+    - '&65 kocek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 67 splnen!&d |------'
+    - '&eUkol splnen dostanes &ckremenou rudu&e!'
+    Rewards:
+      Item1:
+        Id: 153
+        Data: 0
+        Amount: 10

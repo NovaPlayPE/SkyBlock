@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 39
+    Goal: '47:0'
+    Type: craft
+    RequiredAmount: 5
+    Info:
+    - '&6Vyrob po 1ks,'
+    - '&65 knihoven.'
+    FinishInfo:
+    - '&d------| &a&lUkol 39 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cvoditka&e!'
+    Rewards:
+      Item1:
+        Id: 420
+        Data: 0
+        Amount: 4

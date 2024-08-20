@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 52
+    Goal: '37:0'
+    Type: destroy
+    RequiredAmount: 100
+    Info:
+    - '&6Utrhni 100'
+    - '&6pampelisek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 52 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cmorskou houbu&e!'
+    Rewards:
+      Item1:
+        Id: 19
+        Data: 0
+        Amount: 2

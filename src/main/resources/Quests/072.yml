@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 72
+    Goal: 'SHEEP'
+    Type: shear
+    RequiredAmount: 2000
+    Info:
+    - '&6Ostrihej'
+    - '&62000 ovecek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 72 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &cspawnovaci vajicka&b!'
+    Rewards:
+      Item1:
+        Id: 383
+        Data: 96
+        Amount: 2
+      Item2:
+        Id: 383
+        Data: 95
+        Amount: 2

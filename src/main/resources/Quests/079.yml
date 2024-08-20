@@ -1,0 +1,34 @@
+Quests:
+  Sesty:
+    Id: 79
+    Goal: 'SKELETON'
+    Type: kill
+    RequiredAmount: 2000
+    Info:
+    - '&6Zabi 2000'
+    - '&6kustlivcu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 79 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &cdiamantovou vybavu&b!'
+    Rewards:
+      Item1:
+        Id: 310
+        Data: 0
+        Amount: 1
+      Item2:
+        Id: 311
+        Data: 0
+        Amount: 1
+      Item3:
+        Id: 312
+        Data: 0
+        Amount: 1
+      Item4:
+        Id: 313
+        Data: 0
+        Amount: 1
+      Item5:
+        Id: 276
+        Data: 0
+        Amount: 1

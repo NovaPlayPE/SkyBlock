@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 27
+    Goal: 'SHEEP'
+    Type: kill
+    RequiredAmount: 10
+    Info:
+    - '&6Zabi 10'
+    - '&6ovecek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 27 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cbrneni&e!'
+    Rewards:
+      Item1:
+        Id: 303
+        Data: 0
+        Amount: 1

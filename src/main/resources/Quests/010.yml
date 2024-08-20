@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 10
+    Goal: '33:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Vyrob pist'
+    - '&6posunem se dal'
+    FinishInfo:
+    - '&d------| &a&lUkol 10 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cpisek + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 12
+        Data: 0
+        Amount: 5
+      Item2:
+        Id: 2
+        Data: 0
+        Amount: 5

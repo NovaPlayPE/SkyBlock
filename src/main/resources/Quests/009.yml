@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 9
+    Goal: '18:10'
+    Type: destroy
+    RequiredAmount: 40
+    Info:
+    - '&6Ostrihej 40,'
+    - '&6brez. listi.'
+    FinishInfo:
+    - '&d------| &a&lUkol 9 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csazenicky sekvoje&e!'
+    Rewards:
+      Item1:
+        Id: 6
+        Data: 3
+        Amount: 4

@@ -1,0 +1,18 @@
+Quests:
+  Druhy:
+    Id: 2
+    Goal: '4:0'
+    Type: destroy
+    RequiredAmount: 25
+    Info:
+    - '&6Postav gen.,'
+    - '&6natez 25cobble'
+    FinishInfo:
+    - '&d------| &a&lUkol 2 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &czelezny krumpac&e!'
+    Rewards:
+      Item1:
+        Id: 257
+        Data: 0
+        Amount: 1

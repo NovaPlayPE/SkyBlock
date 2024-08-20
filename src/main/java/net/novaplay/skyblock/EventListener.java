@@ -22,15 +22,14 @@ import cn.nukkit.level.Position;
 import cn.nukkit.math.Vector3;
 import cn.nukkit.potion.Effect;
 import cn.nukkit.utils.TextFormat;
+import net.novaplay.api.utils.Chance;
+import net.novaplay.api.utils.ChanceAPI;
 import net.novaplay.core.NovaCore;
 import net.novaplay.core.Settings;
 import net.novaplay.core.entity.BasicNPC;
 import net.novaplay.core.lang.Lang;
 import net.novaplay.core.player.NPlayer;
 import net.novaplay.core.player.name.DisplayName;
-import net.novaplay.core.utils.ChanceAPI;
-import net.novaplay.core.utils.Chance;
-
 import net.novaplay.skyblock.addons.AddonData;
 import net.novaplay.skyblock.chat.Chat;
 import net.novaplay.skyblock.forms.FormSender;

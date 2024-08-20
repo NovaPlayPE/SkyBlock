@@ -1,0 +1,19 @@
+Quests:
+  Sesty:
+    Id: 14
+    Goal: '78:0'
+    Type: destroy
+    RequiredAmount: 20
+    Info:
+    - '&6Natez 20 snehu'
+    - '&6bude poradna'
+    - '&6koulovacka.'
+    FinishInfo:
+    - '&d------| &a&lUkol 14 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cvajicka&e!'
+    Rewards:
+      Item1:
+        Id: 344
+        Data: 0
+        Amount: 10

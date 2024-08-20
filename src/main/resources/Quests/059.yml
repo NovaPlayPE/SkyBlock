@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 59
+    Goal: '151:0'
+    Type: craft
+    RequiredAmount: 2
+    Info:
+    - '&6Vyrob denni'
+    - '&6senzor svetla.'
+    FinishInfo:
+    - '&d------| &a&lUkol 59 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cpivonky&e!'
+    Rewards:
+      Item1:
+        Id: 175
+        Data: 5
+        Amount: 20

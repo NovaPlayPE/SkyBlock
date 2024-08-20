@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 71
+    Goal: 'CHICKEN'
+    Type: kill
+    RequiredAmount: 2000
+    Info:
+    - '&6Zabi 2000'
+    - '&6slepic.'
+    FinishInfo:
+    - '&d------| &a&lUkol 71 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &cemeraldy&b!'
+    Rewards:
+      Item1:
+        Id: 388
+        Data: 0
+        Amount: 100

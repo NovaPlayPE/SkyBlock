@@ -1,0 +1,18 @@
+Quests:
+  Treti:
+    Id: 3
+    Goal: '17:0-17:4-17:8'
+    Type: destroy
+    RequiredAmount: 50
+    Info:
+    - '&6Natez 50'
+    - '&6dub. dreva.'
+    FinishInfo:
+    - '&d------| &a&lUkol 3 splnen!&d |------'
+    - '&eVyborne splnil jsi ukol, jako'
+    - '&eodmenu ziskavas &csazenice brizy&e!'
+    Rewards:
+      Item1:
+        Id: 6
+        Data: 2
+        Amount: 5

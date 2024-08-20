@@ -1,0 +1,20 @@
+Quests:
+  Sesty:
+    Id: 57
+    Goal: '145:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Vyrob si'
+    - '&6kovadlinu, at'
+    - '&6si muzes veci'
+    - '&6opravovat.'
+    FinishInfo:
+    - '&d------| &a&lUkol 57 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &czelezny plot&e!'
+    Rewards:
+      Item1:
+        Id: 101
+        Data: 0
+        Amount: 10

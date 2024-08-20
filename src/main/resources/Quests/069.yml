@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 69
+    Goal: '130:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Vyrob 1'
+    - '&6ender chestku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 69 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cNether hvezdu&e!'
+    Rewards:
+      Item1:
+        Id: 399
+        Data: 0
+        Amount: 1

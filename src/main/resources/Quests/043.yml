@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 43
+    Goal: '18:8'
+    Type: destroy
+    RequiredAmount: 200
+    Info:
+    - '&6Ostrihej 200,'
+    - '&6dub. listi.'
+    FinishInfo:
+    - '&d------| &a&lUkol 43 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &credstone&e!'
+    Rewards:
+      Item1:
+        Id: 331
+        Data: 0
+        Amount: 10

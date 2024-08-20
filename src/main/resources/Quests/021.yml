@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 21
+    Goal: '91:0'
+    Type: craft
+    RequiredAmount: 20
+    Info:
+    - '&6Vyrob po jedne'
+    - '&620 dyn. lamp.'
+    FinishInfo:
+    - '&d------| &a&lUkol 21 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cpochodne&e!'
+    Rewards:
+      Item1:
+        Id: 50
+        Data: 0
+        Amount: 20

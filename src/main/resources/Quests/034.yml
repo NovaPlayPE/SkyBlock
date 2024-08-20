@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 34
+    Goal: '133:0'
+    Type: craft
+    RequiredAmount: 3
+    Info:
+    - '&6Vyrob po 1ks,'
+    - '&63 emeblocky.'
+    FinishInfo:
+    - '&d------| &a&lUkol 34 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cdiamanty&e!'
+    Rewards:
+      Item1:
+        Id: 264
+        Data: 0
+        Amount: 2

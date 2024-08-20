@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 20
+    Goal: '85:0'
+    Type: place
+    RequiredAmount: 50
+    Info:
+    - '&6Postav 50'
+    - '&6dub. plotu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 20 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cemeraldy + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 388
+        Data: 0
+        Amount: 10
+      Item2:
+        Id: 13
+        Data: 0
+        Amount: 5

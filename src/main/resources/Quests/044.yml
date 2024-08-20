@@ -1,0 +1,19 @@
+Quests:
+  Sesty:
+    Id: 44
+    Goal: '76:0'
+    Type: craft
+    RequiredAmount: 10
+    Info:
+    - '&6Vyrob 10,'
+    - '&6redstounovych'
+    - '&6pochodni.'
+    FinishInfo:
+    - '&d------| &a&lUkol 44 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cjil&e!'
+    Rewards:
+      Item1:
+        Id: 337
+        Data: 0
+        Amount: 20

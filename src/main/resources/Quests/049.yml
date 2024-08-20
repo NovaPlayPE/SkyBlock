@@ -1,0 +1,19 @@
+Quests:
+  Sesty:
+    Id: 49
+    Goal: '116:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Vyrob'
+    - '&6enchantovaci'
+    - '&6stolecek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 49 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &clapis lazuli&e!'
+    Rewards:
+      Item1:
+        Id: 351
+        Data: 4
+        Amount: 10

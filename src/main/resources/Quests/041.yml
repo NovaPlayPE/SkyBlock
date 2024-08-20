@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 41
+    Goal: '355:0'
+    Type: craft
+    RequiredAmount: 2
+    Info:
+    - '&6Vyrob postel,'
+    - '&6pak jeste 1.'
+    FinishInfo:
+    - '&d------| &a&lUkol 41 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cfialovou vlnu&e!'
+    Rewards:
+      Item1:
+        Id: 35
+        Data: 10
+        Amount: 20

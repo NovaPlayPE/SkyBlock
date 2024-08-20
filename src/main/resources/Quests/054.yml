@@ -1,0 +1,21 @@
+Quests:
+  Sesty:
+    Id: 54
+    Goal: '25:0'
+    Type: craft
+    RequiredAmount: 5
+    Info:
+    - '&6Vyrob 5'
+    - '&6hudebnich'
+    - '&6bloku, muzes'
+    - '&6si postavit'
+    - '&6pisnicku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 54 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &ckremenou rudu&e!'
+    Rewards:
+      Item1:
+        Id: 153
+        Data: 0
+        Amount: 5

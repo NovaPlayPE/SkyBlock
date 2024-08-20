@@ -1,0 +1,20 @@
+Quests:
+  Sesty:
+    Id: 70
+    Goal: '138:0'
+    Type: place
+    RequiredAmount: 1
+    Info:
+    - '&6Postav si'
+    - '&6majak. At'
+    - '&6zari paprsek'
+    - '&6az do nebe.'
+    FinishInfo:
+    - '&d------| &a&lUkol 70 splnen!&d |------'
+    - '&eOdmenou jsou &c4 diamanty,'
+    - '&bZACINAJI EPICKE QUESTY&e!'
+    Rewards:
+      Item1:
+        Id: 264
+        Data: 0
+        Amount: 4

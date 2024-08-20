@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 83
+    Goal: 'ENDERMAN'
+    Type: kill
+    RequiredAmount: 2000
+    Info:
+    - '&6Zabi 2000'
+    - '&6endermanu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 83 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &chlinu a spawn vajicka&b!'
+    Rewards:
+      Item1:
+        Id: 2
+        Data: 0
+        Amount: 80
+      Item2:
+        Id: 383
+        Data: 120
+        Amount: 4

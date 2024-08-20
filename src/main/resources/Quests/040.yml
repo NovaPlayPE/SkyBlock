@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 40
+    Goal: 'ENDERMAN'
+    Type: kill
+    RequiredAmount: 30
+    Info:
+    - '&6Zabi 30'
+    - '&6endermanu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 40 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csklo + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 20
+        Data: 0
+        Amount: 10
+      Item2:
+        Id: 133
+        Data: 0
+        Amount: 10

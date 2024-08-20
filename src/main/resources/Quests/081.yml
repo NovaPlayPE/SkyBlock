@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 81
+    Goal: 'SPIDER'
+    Type: kill 
+    RequiredAmount: 2000
+    Info:
+    - '&6Zabi 2000'
+    - '&6pavoucku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 81 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &csterk&b!'
+    Rewards:
+      Item1:
+        Id: 13 
+        Data: 0
+        Amount: 70

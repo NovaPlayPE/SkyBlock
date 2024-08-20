@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 50
+    Goal: '279:0'
+    Type: enchant
+    RequiredAmount: 1
+    Info:
+    - '&6Enchantni si'
+    - '&6dia sekeru.'
+    FinishInfo:
+    - '&d------| &a&lUkol 50 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &lozisko ruditu + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 328
+        Data: 0
+        Amount: 1
+      Item2:
+        Id: 73
+        Data: 0
+        Amount: 5

@@ -1,0 +1,19 @@
+Quests:
+  Prvni:
+    Id: 1
+    Goal: '17:0'
+    Type: destroy
+    RequiredAmount: 10
+    Info:
+    - '&6Natez 10 kusu'
+    - '&6dubov. dreva.'
+    FinishInfo:
+    - '&d------| &a&lUkol 1 splnen!&d |------'
+    - '&eVyborne splnil jsi ukol, jako'
+    - '&eodmenu ziskavas &ckamenou sekeru&e!'
+    Rewards:
+      Item1:
+        Id: 275
+        Data: 0
+        Amount: 1
+        Quest-points: 1

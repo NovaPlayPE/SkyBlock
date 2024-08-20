@@ -1,0 +1,20 @@
+Quests:
+  Sesty:
+    Id: 48
+    Goal: '66:0'
+    Type: place
+    RequiredAmount: 20
+    Info:
+    - '&6Postav 20,'
+    - '&6koleji,'
+    - '&6projedeme'
+    - '&6se vlackem.'
+    FinishInfo:
+    - '&d------| &a&lUkol 48 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cknihy&e!'
+    Rewards:
+      Item1:
+        Id: 340
+        Data: 0
+        Amount: 12

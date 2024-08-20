@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 73
+    Goal: '349:0'
+    Type: fish
+    RequiredAmount: 2000
+    Info:
+    - '&6Nachytej 2000'
+    - '&6rybicek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 73 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &cdiamantova loziska&b!'
+    Rewards:
+      Item1:
+        Id: 56
+        Data: 0
+        Amount: 25

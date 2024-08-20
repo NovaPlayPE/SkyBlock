@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 33
+    Goal: '354:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Upec dort,'
+    - '&6bude oslava.'
+    FinishInfo:
+    - '&d------| &a&lUkol 33 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &czlata jablka&e!'
+    Rewards:
+      Item1:
+        Id: 322
+        Data: 1
+        Amount: 5

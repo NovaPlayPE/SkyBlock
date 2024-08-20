@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 16
+    Goal: '162:1'
+    Type: destroy
+    RequiredAmount: 50
+    Info:
+    - '&6Natez 50'
+    - '&6tmav. dubu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 16 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &csazenice smrku&e!'
+    Rewards:
+      Item1:
+        Id: 6
+        Data: 1
+        Amount: 4

@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 17
+    Goal: '84:0'
+    Type: craft
+    RequiredAmount: 1
+    Info:
+    - '&6Vyrob jukebox,'
+    - '&6zatancime si.'
+    FinishInfo:
+    - '&d------| &a&lUkol 17 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &clavu&e!'
+    Rewards:
+      Item1:
+        Id: 327
+        Data: 0
+        Amount: 2

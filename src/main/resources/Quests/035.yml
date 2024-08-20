@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 35
+    Goal: 'SPIDER'
+    Type: kill
+    RequiredAmount: 30
+    Info:
+    - '&6Zabi 30,'
+    - '&6pavouku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 35 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cpisek dusi + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 88
+        Data: 0
+        Amount: 5
+      Item2:
+        Id: 87
+        Data: 0
+        Amount: 5

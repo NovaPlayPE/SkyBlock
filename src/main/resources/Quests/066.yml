@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 66
+    Goal: 'CHICKEN'
+    Custom: '295:0'
+    Type: clickentity
+    RequiredAmount: 200
+    Info:
+    - '&6Namnoz si,'
+    - '&6200 slepicek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 66 splnen!&d |------'
+    - '&eUkol splnen dostanes &clozisko zeleza&e!'
+    Rewards:
+      Item1:
+        Id: 15
+        Data: 0
+        Amount: 10

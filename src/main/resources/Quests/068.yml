@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 68
+    Goal: '278:0'
+    Type: enchant
+    RequiredAmount: 10
+    Info:
+    - '&6Enchantni 10,'
+    - '&6dia krumpacu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 68 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &clektvary skakani&e!'
+    Rewards:
+      Item1:
+        Id: 373
+        Data: 16427
+        Amount: 5

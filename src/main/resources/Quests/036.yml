@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 36
+    Goal: '141:7'
+    Type: destroy
+    RequiredAmount: 100
+    Info:
+    - '&6Sklid 100,'
+    - '&6mrkvi.'
+    FinishInfo:
+    - '&d------| &a&lUkol 36 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cluk&e!'
+    Rewards:
+      Item1:
+        Id: 261
+        Data: 0
+        Amount: 1

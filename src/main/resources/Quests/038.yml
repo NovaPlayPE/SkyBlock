@@ -1,0 +1,20 @@
+Quests:
+  Sesty:
+    Id: 38
+    Goal: '78:0'
+    Type: destroy
+    RequiredAmount: 150
+    Info:
+    - '&6Snehulak ti,'
+    - '&6da 150 snehu,'
+    - '&6staci ho'
+    - '&6postavit.'
+    FinishInfo:
+    - '&d------| &a&lUkol 38 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cinkoust&e!'
+    Rewards:
+      Item1:
+        Id: 351
+        Data: 0
+        Amount: 10

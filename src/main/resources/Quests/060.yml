@@ -1,0 +1,22 @@
+Quests:
+  Sesty:
+    Id: 60
+    Goal: 'ZOMBIE'
+    Type: kill
+    RequiredAmount: 150
+    Info:
+    - '&6Zabi 150'
+    - '&6zombiku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 60 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cmorske houby + bonus&e!'
+    Rewards:
+      Item1:
+        Id: 19
+        Data: 0
+        Amount: 2
+      Item2:
+        Id: 57
+        Data: 0
+        Amount: 1

@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 13
+    Goal: '349:1'
+    Type: fish
+    RequiredAmount: 20
+    Info:
+    - '&6Nachytej,'
+    - '&620 rybek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 13 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &ckbeliky&e!'
+    Rewards:
+      Item1:
+        Id: 325
+        Data: 0
+        Amount: 4

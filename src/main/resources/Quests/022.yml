@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 22
+    Goal: '17:1'
+    Type: destroy
+    RequiredAmount: 100
+    Info:
+    - '&6Natez 100,'
+    - '&6smrk. dreva.'
+    FinishInfo:
+    - '&d------| &a&lUkol 22 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cbrambory&e!'
+    Rewards:
+      Item1:
+        Id: 392
+        Data: 0
+        Amount: 5

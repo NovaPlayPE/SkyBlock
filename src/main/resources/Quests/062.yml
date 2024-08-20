@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 62
+    Goal: '349:0'
+    Type: fish
+    RequiredAmount: 120
+    Info:
+    - '&6Nachytej 120'
+    - '&6rybicek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 62 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cdia helmu&e!'
+    Rewards:
+      Item1:
+        Id: 310
+        Data: 0
+        Amount: 1

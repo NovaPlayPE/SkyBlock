@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 26
+    Goal: '139:0'
+    Type: place
+    RequiredAmount: 50
+    Info:
+    - '&6Postav 50'
+    - '&6kam. plotu.'
+    FinishInfo:
+    - '&d------| &a&lUkol 26 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &ckalhoty&e!'
+    Rewards:
+      Item1:
+        Id: 304
+        Data: 0
+        Amount: 1

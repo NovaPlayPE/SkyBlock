@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 29
+    Goal: 'COW'
+    Type: kill
+    RequiredAmount: 10
+    Info:
+    - '&6Zabi 10,'
+    - '&6kravicek.'
+    FinishInfo:
+    - '&d------| &a&lUkol 29 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &cboty&e!'
+    Rewards:
+      Item1:
+        Id: 305
+        Data: 0
+        Amount: 1

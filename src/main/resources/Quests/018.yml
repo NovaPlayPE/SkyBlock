@@ -1,0 +1,21 @@
+Quests:
+  Sesty:
+    Id: 18
+    Goal: 'SKELETON'
+    Type: kill
+    RequiredAmount: 30
+    Info:
+    - '&6Zabi 30,'
+    - '&6kustlivcu,'
+    - '&6jsou potreba'
+    - '&6kosti na'
+    - '&6hnojivo.'
+    FinishInfo:
+    - '&d------| &a&lUkol 18 splnen!&d |------'
+    - '&eUspesne jsi splnil ukol, jako'
+    - '&eodmenu ziskavas &czelezny mec&e!'
+    Rewards:
+      Item1:
+        Id: 267
+        Data: 0
+        Amount: 1

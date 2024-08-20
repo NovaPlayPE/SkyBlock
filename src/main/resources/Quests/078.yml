@@ -1,0 +1,18 @@
+Quests:
+  Sesty:
+    Id: 78
+    Goal: 'ZOMBIE'
+    Type: kill
+    RequiredAmount: 2000
+    Info:
+    - '&6Zabi 2000'
+    - '&6zombiku.'
+    FinishInfo:
+    - '&d------| &a&lUkol 78 splnen!&d |------'
+    - '&bUspesne jsi splnil ukol, jako'
+    - '&bodmenu ziskavas &cmorske houby&b!'
+    Rewards:
+      Item1:
+        Id: 19
+        Data: 0
+        Amount: 20
